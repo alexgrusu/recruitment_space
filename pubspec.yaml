@@ -1,0 +1,42 @@
+name: recruitment_space
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.6
+  freezed_annotation: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.2
+  flutter_lints: ^2.0.0
+  freezed: ^2.2.1
+
+
+flutter:
+
+  assets:
+    - assets/undraw_task_31wc.svg
+    - assets/undraw_Profile_data_re_v81r.svg
+    - assets/undraw_personal_file_222m.svg
+    - assets/undraw_agreement_aajr.svg
+    - assets/next_step_right.svg
+    - assets/next_step_left.svg
+
+    
+  uses-material-design: true
+
